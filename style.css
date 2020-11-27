@@ -176,6 +176,7 @@ body {
   background: rgba(164, 164, 164, 1);
   margin-top: 5px;
   border-radius: 4px;
+  display:none;
 }
 
 .details.in {
