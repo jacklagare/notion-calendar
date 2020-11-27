@@ -150,15 +150,16 @@
 
 
     //Events
-    var events = createElement('div', 'day-events');
+    /*var events = createElement('div', 'day-events');
     this.drawEvents(day, events);
 
     outer.appendChild(name);
     outer.appendChild(number);
     outer.appendChild(events);
     this.week.appendChild(outer);
+    */
   }
-
+/*
   Calendar.prototype.drawEvents = function(day, element) {
     if(day.month() === this.current.month()) {
       var todaysEvents = this.events.reduce(function(memo, ev) {
@@ -174,7 +175,7 @@
       });
     }
   }
-
+*/
   Calendar.prototype.getDayClass = function(day) {
     classes = ['day'];
     if(day.month() !== this.current.month()) {
