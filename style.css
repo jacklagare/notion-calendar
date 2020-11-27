@@ -183,6 +183,7 @@ body {
   -webkit-animation: moveFromTopFade .5s ease both;
   -moz-animation: moveFromTopFade .5s ease both;
   animation: moveFromTopFade .5s ease both;
+  display:none;
 }
 
 .details.out {
